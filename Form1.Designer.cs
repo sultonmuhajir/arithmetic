@@ -44,7 +44,7 @@ namespace aritmatika
             // 
             this.judul.AutoSize = true;
             this.judul.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.judul.Location = new System.Drawing.Point(146, 32);
+            this.judul.Location = new System.Drawing.Point(118, 15);
             this.judul.Name = "judul";
             this.judul.Size = new System.Drawing.Size(158, 38);
             this.judul.TabIndex = 0;
@@ -52,32 +52,32 @@ namespace aritmatika
             // 
             // num1
             // 
-            this.num1.Location = new System.Drawing.Point(122, 97);
+            this.num1.Location = new System.Drawing.Point(27, 70);
             this.num1.Name = "num1";
-            this.num1.Size = new System.Drawing.Size(202, 31);
+            this.num1.Size = new System.Drawing.Size(337, 31);
             this.num1.TabIndex = 1;
             // 
             // num2
             // 
-            this.num2.Location = new System.Drawing.Point(122, 151);
+            this.num2.Location = new System.Drawing.Point(27, 123);
             this.num2.Name = "num2";
-            this.num2.Size = new System.Drawing.Size(202, 31);
+            this.num2.Size = new System.Drawing.Size(337, 31);
             this.num2.TabIndex = 2;
             // 
             // hasil
             // 
             this.hasil.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.hasil.Location = new System.Drawing.Point(122, 206);
+            this.hasil.Location = new System.Drawing.Point(27, 179);
             this.hasil.Name = "hasil";
-            this.hasil.Size = new System.Drawing.Size(202, 38);
+            this.hasil.Size = new System.Drawing.Size(337, 129);
             this.hasil.TabIndex = 3;
             // 
             // sum
             // 
             this.sum.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sum.Location = new System.Drawing.Point(122, 279);
+            this.sum.Location = new System.Drawing.Point(26, 335);
             this.sum.Name = "sum";
-            this.sum.Size = new System.Drawing.Size(60, 60);
+            this.sum.Size = new System.Drawing.Size(100, 60);
             this.sum.TabIndex = 4;
             this.sum.Text = "+";
             this.sum.UseVisualStyleBackColor = true;
@@ -86,9 +86,9 @@ namespace aritmatika
             // sub
             // 
             this.sub.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.sub.Location = new System.Drawing.Point(122, 345);
+            this.sub.Location = new System.Drawing.Point(26, 401);
             this.sub.Name = "sub";
-            this.sub.Size = new System.Drawing.Size(60, 60);
+            this.sub.Size = new System.Drawing.Size(100, 60);
             this.sub.TabIndex = 5;
             this.sub.Text = "-";
             this.sub.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@ namespace aritmatika
             // mul
             // 
             this.mul.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.mul.Location = new System.Drawing.Point(188, 279);
+            this.mul.Location = new System.Drawing.Point(132, 335);
             this.mul.Name = "mul";
-            this.mul.Size = new System.Drawing.Size(60, 60);
+            this.mul.Size = new System.Drawing.Size(100, 60);
             this.mul.TabIndex = 6;
             this.mul.Text = "x";
             this.mul.UseVisualStyleBackColor = true;
@@ -108,9 +108,9 @@ namespace aritmatika
             // div
             // 
             this.div.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.div.Location = new System.Drawing.Point(188, 345);
+            this.div.Location = new System.Drawing.Point(132, 401);
             this.div.Name = "div";
-            this.div.Size = new System.Drawing.Size(60, 60);
+            this.div.Size = new System.Drawing.Size(100, 60);
             this.div.TabIndex = 7;
             this.div.Text = "/";
             this.div.UseVisualStyleBackColor = true;
@@ -119,9 +119,9 @@ namespace aritmatika
             // clear
             // 
             this.clear.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.clear.Location = new System.Drawing.Point(254, 279);
+            this.clear.Location = new System.Drawing.Point(238, 335);
             this.clear.Name = "clear";
-            this.clear.Size = new System.Drawing.Size(70, 126);
+            this.clear.Size = new System.Drawing.Size(126, 126);
             this.clear.TabIndex = 8;
             this.clear.Text = "C";
             this.clear.UseVisualStyleBackColor = true;
@@ -131,7 +131,7 @@ namespace aritmatika
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 481);
+            this.ClientSize = new System.Drawing.Size(393, 494);
             this.Controls.Add(this.clear);
             this.Controls.Add(this.div);
             this.Controls.Add(this.mul);
